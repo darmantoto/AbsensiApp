@@ -1,11 +1,24 @@
-import React from "react";
-import "./style.css";
+import React from 'react';
+import './globals.css';
+
+import {
+  BrowserRouter as Router,
+  Link,
+  NavLink,
+  Switch,
+  Route,
+  Redirect,
+} from 'react-router-dom';
+
+import Home from './pages/Home.js';
+import Page2 from './pages/Page2.js';
 
 export default function App() {
   return (
     <div>
-      <h1>Hello StackBlitz!</h1>
-      <p>Start editing to see some magic happen :)</p>
+      
     </div>
   );
 }
+
+export default App;
